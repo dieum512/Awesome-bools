@@ -25,13 +25,12 @@ body {
 .remove-btn {
   text-decoration: none;
   background-color: #141446;
-  color: #d8cbcb
+  color: #d8cbcb;
 }
 
 .form-container {
   margin-top: 30px;
   align-items: center;
-  
 }
 
 .form-container h2 {
@@ -39,7 +38,6 @@ body {
 }
 
 .book-form {
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,7 +59,7 @@ body {
   max-width: 70px;
   transition: 0.3s;
   border: none;
-} 
+}
 
 .submit-btn:hover {
   background-color: #77a87a;

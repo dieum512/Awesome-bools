@@ -97,4 +97,11 @@ document.querySelector('.book-form').addEventListener('submit', (e) => {
 
     // clear field
     UI.clearFields();
+}
+// remove book
+document.querySelector('.table-body').addEventListener('click', (e) => {
+    // remove book from UI
+    UI.deleteBook(e.target)
+    // remove book from store
+    Store.removeBook(e.target.parentElement.previousElementSibling.previousElementSibling.textContent);
 });

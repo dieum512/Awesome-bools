@@ -1,3 +1,69 @@
 * {
   margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #010113;
+  align-items: center;
+  text-align: center;
+  padding: 2%;
+}
+
+.title {
+  color: #0f6115;
+}
+
+.table {
+  width: 100%;
+  border: 2px solid #f0e7e7;
+  margin-top: 30px;
+  color: rgb(129, 120, 120);
+}
+
+.remove-btn {
+  text-decoration: none;
+  background-color: #141446;
+  color: #d8cbcb
+}
+
+.form-container {
+  margin-top: 30px;
+  align-items: center;
+  
+}
+
+.form-container h2 {
+  color: #08410c;
+}
+
+.book-form {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 0 0;
+  flex-direction: column;
+  padding: 0 30%;
+  gap: 15px;
+}
+
+.book-form input {
+  padding: 4px;
+  width: 100%;
+}
+
+.submit-btn {
+  align-self: flex-end;
+  background-color: #0f6115;
+  color: #fff;
+  max-width: 70px;
+  transition: 0.3s;
+  border: none;
+} 
+
+.submit-btn:hover {
+  background-color: #77a87a;
+  color: #000;
 }

@@ -12,21 +12,71 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- header -->
+    <header class="main-header">
+      <div class="logo"><a href="#"> Awesome books</a></div>
+      <nav class="nav-links">
+        <ul class="nav-list">
+          <li class="list-one">List</li>
+          <li class="list-two">Add new</li>
+          <li class="list-three">Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <!-- container -->
     <div class="container">
-      <h1 class="title">All awesome books</h1>
-      <table class="table">
-        <tbody class="table-body"></tbody>
-      </table>
-      <div class="form-container">
-        <h2>Add a new book</h2>
-        <form class="book-form">
-          <input type="text" id="title" placeholder="Title" required />
-          <input type="text" id="author" placeholder="Author" required />
-          <input class="submit-btn" type="submit" value="Add" />
-        </form>
-      </div>
+      <!-- books displayed -->
+      <section class="books">
+        <h1 class="title">All awesome books</h1>
+        <table class="table">
+          <tbody class="table-body"></tbody>
+        </table>
+      </section>
+      <!-- add new books -->
+      <section class="forms">
+        <div class="form-container">
+          <h1>Add a new book</h1>
+          <form class="book-form">
+            <input type="text" id="title" placeholder="Title" required />
+            <input type="text" id="author" placeholder="Author" required />
+            <input class="submit-btn" type="submit" value="Add" />
+          </form>
+        </div>
+      </section>
+      <!-- contact -->
+      <section class="contact">
+        <div class="contact-container">
+          <h1>Contact Information</h1>
+          <p>
+            Do you have any question or you just want to say "Hello"? You can
+            contact me on:
+          </p>
+          <ul>
+            <li>
+              Twitter:
+              <a href="https://twitter.com/dieumakonkw">@dieumakonkw</a>
+            </li>
+            <li>
+              LinkedIn:
+              <a href="https://www.linkedin.com/in/dieum-akonkwa-7981b924b/"
+                >Dieum Akonkwa</a
+              >
+            </li>
+            <li>
+              GitHub: <a href="https://github.com/dieum512/">@dieum512</a>
+            </li>
+            <li>
+              Gmail:
+              <a href="https://www.gmail.com">akonkwadieum222@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </div>
-
+    <!-- footer -->
+    <footer class="main-footer">
+      <h5>Copyright @Dieum Akonkwa 2023</h5>
+    </footer>
     <!-- js connect -->
     <script type="module" src="script.js"></script>
   </body>

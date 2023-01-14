@@ -106,3 +106,5 @@ document.querySelector('.table-body').addEventListener('click', (e) => {
   // remove book from store
   Store.removBook(e.target.parentElement.previousElementSibling.previousElementSibling.textContent);
 });
+
+// navigation

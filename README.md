@@ -117,9 +117,9 @@ npm test
 
 👤 **Author2**
 
-- GitHub: []()
-- Twitter: []()
-- LinkedIn: []()
+- GitHub: [@Rikol137](https://github.com/Rikol137)
+- Twitter: [@RikolK](https://twitter.com/RikolK)
+- LinkedIn: [Ibrahim](https://www.linkedin.com/in/kelvin-kimwetich-b5398521a/")
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

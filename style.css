@@ -6,13 +6,74 @@
 
 body {
   background-color: #010113;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  margin-top: 15px;
+  background: #ddd;
+  justify-content: center;
   align-items: center;
-  text-align: center;
-  padding: 2%;
+  min-height: 50px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* header */
+
+.main-header {
+  padding: 8px 20%;
+  display: flex;
+  justify-content: space-between;
+  background: #ddd;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.logo {
+  color: #0a0a57;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.nav-list {
+  cursor: pointer;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  color: #0a0a57;
+}
+
+/* content */
+
+.container {
+  margin: 90px 20%;
+}
+
+/* books displayed */
+
+/* .books {
+  display: none;
+} */
+
+.books.active {
+  display: none;
 }
 
 .title {
   color: #0f6115;
+  text-align: center;
 }
 
 .table {
@@ -22,34 +83,51 @@ body {
   color: rgb(129, 120, 120);
 }
 
+.table-body tr td {
+  padding: 10px;
+  border-bottom: 2px solid #fff;
+}
+
 .remove-btn {
   text-decoration: none;
   background-color: #141446;
   color: #d8cbcb;
 }
 
+/* forms */
+
+.forms {
+  display: none;
+}
+
+.forms.active {
+  display: unset;
+}
+
 .form-container {
-  margin-top: 30px;
   align-items: center;
 }
 
-.form-container h2 {
+.form-container h1 {
   color: #08410c;
+  text-align: center;
 }
 
 .book-form {
+  /* margin-top: 1000px; */
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 20px 0 0 0;
   flex-direction: column;
-  padding: 0 30%;
+  padding: 30px 20%;
   gap: 15px;
 }
 
 .book-form input {
-  padding: 4px;
+  padding: 6px;
   width: 100%;
+  border-radius: 5px;
 }
 
 .submit-btn {
@@ -64,4 +142,25 @@ body {
 .submit-btn:hover {
   background-color: #77a87a;
   color: #000;
+}
+
+/* contact */
+
+.contact {
+  display: none;
+}
+
+.contact.active {
+  display: unset;
+}
+
+.contact-container {
+  color: #ddd;
+  margin: 0 10%;
+}
+
+.contact-container h1 {
+  color: #08410c;
+  text-align: center;
+  margin-bottom: 30px;
 }
